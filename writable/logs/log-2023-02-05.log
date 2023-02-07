@@ -1,0 +1,166 @@
+CRITICAL - 2023-02-05 14:29:33 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:29:33 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 14:29:37 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:29:37 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 14:29:42 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:29:42 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 14:41:12 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:41:12 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 14:43:36 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:43:36 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 14:48:04 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 14:48:04 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-02-05 15:14:51 --> The framework needs the following extension(s) installed and loaded: intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2023-02-05 15:14:51 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\CIapp\system\CLI\CLI.php:872
+Stack trace:
+#0 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\CIapp\system\CLI\CLI.php(1115): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(312): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\CIapp\system\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\CIapp\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(266): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(269): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\CIapp\system\Debug\Exceptions.php(147): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 872.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-02-05 15:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-05 16:02:45 --> CodeIgniter\BaseModel::transformDataToArray(): Return value must be of type array, string returned
+in SYSTEMPATH\BaseModel.php on line 1706.
+ 1 SYSTEMPATH\BaseModel.php(742): CodeIgniter\BaseModel->transformDataToArray('FCPATH\\.', 'insert')
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert('FCPATH\\.', false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert('FCPATH\\.', false)
+ 4 APPPATH\Controllers\Admin.php(73): CodeIgniter\BaseModel->save('FCPATH\\.', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->pariwisataUpdate('FCPATH\\.')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-02-05 16:29:33 --> Call to a member function move() on null
+in APPPATH\Controllers\Admin.php on line 139.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin->addArtikelS()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
